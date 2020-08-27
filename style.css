@@ -1,0 +1,822 @@
+
+
+
+* { 
+	margin:0;
+	padding: 0;
+
+
+	box-sizing: border-box;
+
+
+
+}
+
+
+
+
+body  { 
+	width: 100% ;
+	height: 100% ;
+	box-sizing: border-box;
+
+
+
+}
+
+
+body , html { 
+	
+	width: 100%;
+	height: 100%;
+
+	font-size: 18px;
+	font-family: Poppins;
+	font-weight: ;
+	box-sizing: border-box;
+
+
+
+
+}
+
+
+h1  { 
+	
+    padding-bottom:  1em;
+
+
+
+}
+
+
+.contenaire { 
+
+	
+
+
+}
+
+
+
+
+
+
+
+.header_nav { 
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+	padding: 3em 4em 3em 4em;
+
+	background-color: hsl(193, 100%, 96%);
+
+}
+
+
+.bouton { 
+
+	width: 12em;
+
+	padding: 0.5em;
+	
+
+	text-align: center;
+
+	background-color: white;
+	border-radius: 19px;
+	font-size: 16px;
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.71);
+	cursor: pointer;
+	transition-duration: 400ms;
+}
+
+
+.bouton:hover { 
+
+	
+	background-color: hsl(322, 100%, 66%);
+	color: white;
+
+    
+
+}
+
+
+.header { 
+
+	
+	
+	box-sizing: border-box;
+	
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	margin: auto;
+
+
+	background-color: hsl(193, 100%, 96%);
+
+	padding: 2em 2em 3em 2em;
+	
+	
+	
+
+
+}
+
+
+
+
+ .header_left{ 
+
+      
+      width: 50%;
+      padding: 3em;
+
+	 
+
+
+}
+
+
+
+ .header_right{ 
+	
+    
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+ .image_header{ 
+	
+          width: 30em;
+
+}
+
+
+
+.bouton2{ 
+
+
+	width: 16em;
+	padding:  1em;
+
+	margin-left: 6.6em;
+	margin-top: 1em;
+		
+
+	text-align: center;
+
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 20px;
+
+	font-size: 12px;
+	color: white;
+	box-shadow: 1px 3px 9px 2px rgba(0,0,0,0.71);
+	transition-duration: 400ms;
+	cursor: pointer;
+	}
+
+
+.bouton2:hover { 
+
+	
+	background-color:  hsl(192, 100%, 9%);
+
+    
+
+}
+
+
+
+
+.content { 
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin: auto;
+
+    padding-top: 6em;
+
+    
+
+    margin-bottom: 7em;
+
+
+
+}
+
+.top_content { 
+
+    
+	
+
+	display: flex;
+	width: 100%;
+	height: 28em;
+	padding: 2em;
+	font-size: 14px;
+	font-weight: 200;
+
+    
+	margin: auto;
+	margin-bottom: 3em;
+
+	box-shadow: 0px 0px 3px 3px rgba(221,211,219,0.75);
+	border-radius: 4px;
+
+
+
+}
+
+.middle_content { 
+
+   
+	display: flex;
+	flex-direction: row-reverse; 
+	height: 28em;
+	padding: 2em;
+
+	width: 100%;
+	font-size: 14px;
+	font-weight: 200;
+	
+
+	margin: auto;
+	margin-bottom: 3em;
+
+	box-shadow: 0px 0px 3px 3px rgba(221,211,219,0.75);
+	border-radius: 4px;
+
+
+
+}
+
+.bottom_content { 
+
+  
+    height: 28em;
+	padding: 2em;
+
+	display: flex;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 200;
+	
+
+	margin: auto;
+
+	box-shadow: 0px 0px 3px 3px rgba(221,211,219,0.75);
+	border-radius: 4px;
+
+
+
+
+}
+
+
+.wrap  {
+
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ width: 50%;
+
+ padding-left: 4em;
+
+  
+
+
+ }
+
+ 
+
+
+
+.illustration { 
+    
+    width: 27em;
+    margin-left: 12em;
+
+
+}
+
+.illustration2 { 
+    
+    width: 27em;
+    margin-right:  12em;
+
+
+}
+
+.footer  { 
+    
+   
+
+   background-color: hsl(192, 100%, 9%);
+
+   color: white;
+   font-size: 10px;
+
+   
+}
+
+
+.logo_bottom { 
+    
+   padding-left: 4em;
+   padding-top: 15em;
+   filter: brightness(0) invert(1);   
+
+   
+
+   
+}
+
+
+
+.section_foot  { 
+
+	display: flex;
+	justify-content: space-around; 
+
+
+   padding-top: 2em;
+   
+
+   font-size: 14px;
+
+   
+
+
+}
+
+
+
+.s1   { 
+
+   width: 21em;
+
+
+   
+
+
+
+}
+.s   { 
+
+   width: 25em;
+   margin-left: 6em;
+
+
+}
+.s   { 
+
+   width: 25em;
+   margin-left: 6em;
+
+
+}
+.s   { 
+
+   width: 25em;
+   margin-left: 6em;
+
+
+}
+
+
+
+
+.bulle { 
+    
+    
+    position: relative;
+
+	
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	font-size: 14px;
+
+	bottom:  -5.5em;
+	margin: auto;
+
+
+	width: 55em;
+	height: 18em;
+	padding: 5em;
+
+    background-color: white;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.71);
+	border-radius: 12px;
+
+
+}
+
+
+
+
+.bouton3 { 
+
+    width: 27em;
+    padding: 0.8em;
+
+    
+
+
+
+    background-color: hsl(322, 100%, 66%);
+	border-radius: 20px;
+
+	
+	color: white;
+	font-weight: 600px;
+	box-shadow: 1px 3px 9px 2px rgba(0,0,0,0.71);
+	cursor: pointer;
+	transition-duration: 400;ms;
+
+}
+
+
+.bouton3:hover { 
+
+	opacity: 0.7;
+	background-color:  hsl(192, 100%, 9%);
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+.copy { 
+
+
+	text-align: right;
+	padding-right: 5em;
+	padding-bottom: 3.5em;
+
+	font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.fas , .far  { 
+     
+          position: absolute;
+          left:   4em;
+          margin-top: 0.3em;
+
+
+}
+
+.fab{ 
+     
+          font-size: 25px;
+          margin-right: 0.5em;
+
+
+}
+
+
+.attribution{ 
+     
+          
+         background-color: hsl(192, 100%, 9%);
+
+         padding-bottom: 2em;
+         color: white;
+
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: auto;
+
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .header_left , .header_right {
+    
+    width: 100%    
+    
+
+  }
+}
+@media screen and (max-width: 800px) {
+  .bouton2 {
+    
+    margin: auto;
+    margin-top: 1.3em;    
+    
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .top_content , .middle_content , .bottom_content {
+     display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+
+    margin-bottom: 3em; 
+
+
+
+    
+
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .illustration , .illustration2  {
+     
+
+    margin: auto;
+    
+    padding-top: 2em;
+    width: 70%
+
+
+
+
+    
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .wrap {
+     
+     
+
+    width: 100%;
+    margin-top: 3.5em;
+    padding: 2em 0 0 2em;
+
+
+    margin: auto;
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .bulle {
+     
+    width: 90%;
+    height: 18em;
+    
+    font-size: 10px;
+
+
+
+
+
+ 
+
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+ .section_foot {
+     
+     display: flex;
+     flex-direction: column;
+
+
+    
+  
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .s1 {
+     
+     margin-left: 6em;
+
+     
+    
+  
+ 
+
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+ .s2 {
+     
+     margin-left: 1em;
+     padding-top:  3.5em;
+
+     
+    
+  
+ 
+
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+ .s3 {
+     
+     margin-left: 1em;
+    
+
+     
+    
+  
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .s4 {
+     
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+    padding-top: 3em;
+    padding-bottom: 2em;
+
+     
+    
+  
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .copy , .attribution {
+     
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: 0;
+  
+    padding: 0;
+
+     
+    
+  
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .attribution {
+     
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: 0;
+  
+    padding: 2em 0 2em 0;
+
+     
+    
+  
+ 
+
+  }
+}
+@media screen and (max-width: 800px) {
+ .image_header {
+     
+    
+   width: 90%;
+
+     
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .header_nav , .bouton , .logo {
+     
+    
+   padding: 1em;
+   
+
+     
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .bouton  {
+     
+    
+   margin-left:  10em;
+   font-size: 12px;
+   
+
+     
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ h1  {
+     
+    
+   
+   font-size: 24px;
+   
+
+     
+ 
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .content  {
+     
+   
+   
+  margin-bottom: 0em;
+   
+
+     
+ 
+
+  }
+}
+
+
